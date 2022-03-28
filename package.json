@@ -1,6 +1,6 @@
 {
   "name": "kidlib-markdown",
-  "version": "1.0.1clear",
+  "version": "1.0.0",
   "description": "encontra links em arquivos markdown",
   "keywords": ["markdown", "URL", "links"],
   "main": "./cli.js",
