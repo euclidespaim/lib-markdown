@@ -1,0 +1,24 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "encontra links em arquivos markdown",
+  "keywords": ["markdown", "URL", "links"],
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "author": "Euclides Paim",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
